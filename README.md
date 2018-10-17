@@ -2,7 +2,10 @@
 
 ### Description
 Today, most of the environments are distributed across several servers and it is sometimes difficult to find where a problem started first.
+
 The purpose of this script is to gather whatever events by IDs or by type (critical, error, warning, etc.) and concatenate all of them, and present them by column of server.
+
+It will save the result in a csv file in the current folder and display it as a powershell grid-view.
 
 ### How to use it
 Store all the system event logs inside a folder (name them whatever you want, but just keep system.evtx in the name) and run the script with the options you want.
