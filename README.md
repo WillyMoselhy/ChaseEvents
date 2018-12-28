@@ -34,8 +34,9 @@ There are a couple of prerequisits
   - Minimal (Defaul) : Just counts the occurence of events with no detail on the event
   - Standard         : Adds a detail on the event (often the 1rst parameter)
   - Verbose          : Adds details on the event
-               
 
+**-Multiline**  : Adds the possibility to split the events details into several lines. The defaul value is unset (all in the same line)
+  
 ### Examples of usage
 **.\ChaseEvents.ps1 -EventId 5120 -Format YMDH -Days 7**
 
