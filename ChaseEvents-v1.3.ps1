@@ -1,3 +1,4 @@
+#Willy edits
 Param(
     [string[]]$EventId,                                                     # The EventId we're looking for 
     [ValidateSet("Critical","Error","Warning","Information","Verbose")][string[]]$EventLevel,    # We can also filter by level
